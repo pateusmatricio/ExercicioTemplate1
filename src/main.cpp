@@ -18,12 +18,13 @@ int main(int argc, char const *argv[])
 	c.addElemento('a');
 	c.addElemento('F');
 	c.addElemento(27);
+	c.addElemento(12);
 	//c.addConjunto(a);
 
 	Conjunto<int> d;
 	d.addElemento(12345);
 	d.addConjunto(a);
-	d.addElemento(9);
+	d.addElemento(123);
 
 	a.mostraElementos();
 	b.mostraElementos();
